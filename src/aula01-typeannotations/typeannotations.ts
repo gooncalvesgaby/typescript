@@ -23,6 +23,17 @@ let pessoa: {nome: string, idade: number, adulto: boolean} = {
     adulto: true
 
 };
+// funtions
+
+function nota(x: number, y: number): number {
+    return x * y;
+}
+
+const nota2: (x: number, y: number) => number = (x, y) => x + y;
+
+
+
+
 
 
 
