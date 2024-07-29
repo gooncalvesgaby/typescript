@@ -10,4 +10,11 @@ const meses: string [] = ["janeiro", "abril", "maio", "julho"];
 const dias: Array<number> = [1, 2, 3];
 const semana: Array<string> = ["segunda", "terça", "quarta"]
 
-console.log(dias, semana)
+// type tupla
+// o type tupla é um tipo de array no qual eu consigo especificar
+// que o meu array vai receber dois tipos, uma string e um numero
+
+let gabrielle : [string, number];
+gabrielle = ["gonçalves", 29];
+
+console.log(gabrielle)
