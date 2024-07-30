@@ -17,4 +17,3 @@ const semana: Array<string> = ["segunda", "terça", "quarta"]
 let gabrielle : [string, number];
 gabrielle = ["gonçalves", 29];
 
-console.log(gabrielle)
